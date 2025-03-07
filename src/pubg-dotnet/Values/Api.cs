@@ -82,5 +82,11 @@ namespace Pubg.Net.Values
             internal static string SurvivalMasteryEndpoint(PubgPlatform platform, string accountId) =>
                 string.Format($"{ShardedBaseUrl}/players/{accountId}/survival_mastery", platform.Serialize());
         }
+
+        internal static class Clans
+        {
+            internal static string ClansEndpoint(PubgPlatform platform, string clanId) =>
+                string.Format($"{ShardedBaseUrl}/clans/{clanId}", platform.Serialize());
+        }
     }
 }

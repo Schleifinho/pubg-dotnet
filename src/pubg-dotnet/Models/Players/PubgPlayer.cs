@@ -29,5 +29,8 @@ namespace Pubg.Net
         
         [JsonProperty]
         public string BanType { get; set; }
+        
+        [JsonProperty]
+        public string ClanId { get; set; }
     }
 }
