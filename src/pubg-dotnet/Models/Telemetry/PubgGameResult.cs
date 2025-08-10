@@ -18,5 +18,8 @@ namespace Pubg.Net.Models.Telemetry
 
         [JsonProperty]
         public string AccountId { get; set; }
+        
+        [JsonProperty]
+        public bool IsRewardAbuse { get; set; }
     }
 }

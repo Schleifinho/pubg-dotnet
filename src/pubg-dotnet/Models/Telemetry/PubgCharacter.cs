@@ -18,6 +18,9 @@ namespace Pubg.Net
 
         [JsonProperty]
         public int Ranking { get; set; }
+        
+        [JsonProperty]
+        public int IndividualRanking { get; set; }
 
         [JsonProperty]
         public string AccountId { get; set; }
@@ -30,5 +33,14 @@ namespace Pubg.Net
 
         [JsonProperty]
         public string[] Zone { get; set; }
+        
+        [JsonProperty]
+        public string InSpecialZone { get; set; }
+        
+        [JsonProperty]
+        public bool IsInVehicle { get; set; }
+        
+        [JsonProperty]
+        public string Type { get; set; }
     }
 }
